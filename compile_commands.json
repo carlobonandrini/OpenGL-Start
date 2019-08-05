@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=gnu++1z -o CMakeFiles/OpenGLStart.dir/src/main.cpp.o -c /Users/carlobonandrini/develop/OpenGL-Start/src/main.cpp",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/src/main.cpp"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/context.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/context.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/init.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/init.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/input.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/input.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/monitor.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/monitor.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/vulkan.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/vulkan.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/window.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/window.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_init.m",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_joystick.m",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_monitor.m",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_window.m",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_time.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/posix_thread.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/posix_thread.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/nsgl_context.m",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/egl_context.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/egl_context.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/egl_context.c"
+},
+{
+  "directory": "/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glew-2.1.0/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/include -I/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src -I/Users/carlobonandrini/develop/OpenGL-Start/build/dependencies/glfw-3.3/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c /Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/osmesa_context.c",
+  "file": "/Users/carlobonandrini/develop/OpenGL-Start/dependencies/glfw-3.3/src/osmesa_context.c"
+}
+]
