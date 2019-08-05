@@ -11,15 +11,11 @@ add_executable(OpenGLStart ${SOURCES})
 set(GLEW_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/glew-2.1.0/include)
 set(GLEW_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/glew-2.1.0/lib/libGLEW.2.1.0.dylib)
 
-include_directories(${GLEW_INCLUDE_DIR})
-target_link_libraries(OpenGLStart ${GLEW_LIBRARY})
+set(GLFW_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/glfw-3.3/include)
+set(GLFW_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/glfw-3.3/build/src/libglfw.3.3.dylib)
 
-set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
-set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
-
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/dependencies/glfw-3.3)
-target_link_libraries(OpenGLStart glfw)
+include_directories(${GLEW_INCLUDE_DIR} ${GLFW_INCLUDE_DIR})
+target_link_libraries(OpenGLStart ${GLEW_LIBRARY} ${GLFW_LIBRARY})
 
 find_package(OpenGL REQUIRED)
 target_link_libraries(OpenGLStart ${OPENGL_LIBRARY})
