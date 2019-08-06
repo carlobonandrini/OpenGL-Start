@@ -1,7 +1,21 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <fstream>
 #include <iostream>
 #include <string>
+
+static std::string ParseShader(std::string &filePath) {
+  std::ifstream stream(filePath);
+  if (!stream.is_open())
+    std::cout << "File not found: " << filePath << std::endl;
+  std::string line;
+  std::string shader = "";
+
+  while (getline(stream, line))
+    shader += line + "\n";
+
+  return shader;
+}
 
 static unsigned int CompileShader(unsigned int type,
                                   const std::string &source) {
@@ -21,7 +35,8 @@ static unsigned int CompileShader(unsigned int type,
     char log[length];
     glGetShaderInfoLog(id, length, nullptr, log);
     std::cout << (type == GL_VERTEX_SHADER ? "VERTEX" : "FRAGMENT")
-              << " SHADER ERROR: " << log << std::endl;
+              << " SHADER ERROR:\n"
+              << log << std::endl;
     glDeleteShader(id);
     return 0;
   }
@@ -89,16 +104,11 @@ int main() {
   glEnableVertexAttribArray(0);
   glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
 
-  std::string vertexShader = "#version 330 core\n"
-                             "layout(location = 0) in vec4 position;\n"
-                             "void main(){\n"
-                             "gl_Position = position;}\n";
-
-  std::string fragmentShader = "#version 330 core\n"
-                               "layout(location = 0) out vec4 color;\n"
-                               "void main(){\n"
-                               "color=vec4(1.0, 0.0, 0.0, 1.0);}\n";
-
+  // FILEPATH IS RELATIVE TO WHERE THE ACTUAL PROGRAM IS STORED (COMPILED)
+  std::string vertexPath = "../../res/shaders/basic.vert";
+  std::string vertexShader = ParseShader(vertexPath);
+  std::string fragmentPath = "../../res/shaders/basic.frag";
+  std::string fragmentShader = ParseShader(fragmentPath);
   unsigned int shader = CreateShader(vertexShader, fragmentShader);
   glUseProgram(shader);
 
